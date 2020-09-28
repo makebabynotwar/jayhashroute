@@ -1,3 +1,10 @@
+/*
+ * JayHashRoute v1
+ * Hash Routing made easier for faster development
+ * Author -> Mar Mattheo Paypa
+ * All Rights Reserved 2020
+ */
+
 export const JayHashRoute = function(container, pages, defaultPage){
   window.addEventListener('hashchange', e=> this.onRoutChange(e));
   this.container = container;
@@ -130,7 +137,7 @@ JayHashRoute.prototype.badURL = function(){
     margin: 0; padding: 0; }
     .title { margin: 0; font-size: 22px; line-height: 24px; color: #dc3545; margin-bottom:1rem;}
     .main { position: relative; display: flex; flex-direction: column;
-align-items: center; justify-content: center; height: 100vh; width: 100vw; }
+align-items: center; justify-content: center; height: 80vh; width: 100vw; }
     .card { position: relative; display: flex; flex-direction: column; width:
 75%; max-width: 364px; padding: 24px; background: white; color: rgb(14, 30,
 37); border-radius: 8px; box-shadow: 0 2px 4px 0 rgba(14, 30, 37, .16); }
