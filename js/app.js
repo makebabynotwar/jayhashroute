@@ -11,7 +11,7 @@ import {about} from '../includes/about.js';
 import {parent} from '../includes/parent.js';
 import {childOne, child_two} from '../includes/children.js';
 
-// The div element with a class of 'content' from index.html
+// Grabbing the div element with a class of 'content' from index.html
 const div = document.querySelector('.content');
 
 // Pages Object: Pages imported from includes folder
@@ -20,7 +20,7 @@ const pages = {
 }
 
 /* 
- * 3 Parameters needed to instantiate a JayHashRoute object
+ * 3 Parameters are needed to instantiate a JayHashRoute object
  * 1st parameter - a div element to load the contents
  * 2nd parameter - an object of pages just like shown above
  * 3rd parameter - set a default page to load, the starter default is 'home' 
