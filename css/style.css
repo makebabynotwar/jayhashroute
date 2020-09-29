@@ -3,13 +3,6 @@ body{
 	font-family: sans-serif;
 	color:white;
 }
-.sample{
-	font-size:2.5rem;
-	height:60vh;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-}
 ul {
 	display: flex;
 	justify-content: space-around;
@@ -22,4 +15,11 @@ ul li a {
 	color:white;
 	text-decoration: none;
 	font-size:1.5rem;
+}
+.sample{
+	font-size:2.5rem;
+	height:60vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }

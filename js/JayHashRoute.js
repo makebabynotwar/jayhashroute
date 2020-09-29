@@ -1,5 +1,5 @@
 /*
- * JayHashRoute v1
+ * JayHashRoute Library v1
  * Hash Routing made easier for faster development
  * Author -> Mar Mattheo Paypa
  * All Rights Reserved 2020

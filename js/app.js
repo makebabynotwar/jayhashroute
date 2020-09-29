@@ -2,8 +2,8 @@
 import {JayHashRoute} from './JayHashRoute.js';
 
 /*
- * importing pages from includes folder
- * If you added a page in includes, manually import below with the same format
+ * Importing pages from includes folder
+ * If you added a page in includes folder, manually import the page below with the same format
  * Don't forget to add your new page to the pages object below
  */
 import {home} from '../includes/home.js';
@@ -11,7 +11,7 @@ import {about} from '../includes/about.js';
 import {parent} from '../includes/parent.js';
 import {childOne, child_two} from '../includes/children.js';
 
-// The div element from index.html
+// The div element with a class of 'content' from index.html
 const div = document.querySelector('.content');
 
 // Pages Object: Pages imported from includes folder
@@ -23,7 +23,7 @@ const pages = {
  * 3 Parameters needed to instantiate a JayHashRoute object
  * 1st parameter - a div element to load the contents
  * 2nd parameter - an object of pages just like shown above
- * 3rd parameter - set a default page to load i.e., 'home' 
+ * 3rd parameter - set a default page to load, the starter default is 'home' 
  */
 
 // Instantiating a JayHashRoute object
@@ -34,7 +34,7 @@ const route = new JayHashRoute(div, pages, 'home');
  */
 route.addTitlePrefix(`Your Site's Name | `);
 
-// Creating a parent to children relationship
+// Creating a parent to children relationship for routing
 const relationship = {
 	'parent' : [ 'childOne', 'child_two']
 }
